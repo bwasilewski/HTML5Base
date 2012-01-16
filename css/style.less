@@ -1,0 +1,60 @@
+// Override the following CSS variables to match the grid widths for your project
+// Read more about this at http://semantic.gs
+@columns: 12;
+@column-width: 60;
+@gutter-width: 20;
+
+article {
+	.column(9);
+	background: #ccc;
+}
+
+header {
+	background: rgba(0,0,0,1);
+
+	h1, h2 {
+		color: rgba(255,255,255,1);
+		margin-bottom: .2em;
+	}
+
+	a {
+		color: rgba(200,200,200,1);
+	}
+}
+
+hgroup {
+	width: 940px;
+	padding: 20px;
+	margin: 0 auto;
+}
+
+section {
+	.column(3);
+	background: #eee;
+}
+
+.col {
+	.column(1);
+	background: #eee;
+}
+
+.container {
+	width: 960px;
+	margin: 30px auto;	
+
+	overflow: hidden;
+}
+
+.quarter {
+	.column(3);
+	background: #eee;
+}
+
+.third {
+	.column(4);
+	background: #eee;
+}
+
+@media screen and (max-width: 960px) {
+	
+}
