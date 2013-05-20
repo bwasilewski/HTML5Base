@@ -2,6 +2,8 @@
 
 HTML5Base is a long-forgotten and re-imagined attempt to simplify the creation of new projects utilizing the latest web technologies out of the box such as Node.js, Grunt, SASS and Compass.
 
+This project will do lots of things for you - it will separate your development files (_src) from your testing files (_dist), allow for simple Javascript hinting, file concatenation, HTML includes, SASS compilation, and much more. Forget about wasting time bootstrapping projects yourself.
+
 
 ##Requirements
 
