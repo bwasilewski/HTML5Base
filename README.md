@@ -1,8 +1,16 @@
-#HTML5Base v2.0
+ #HTML5Base v2.0
 
 HTML5Base is a long-forgotten and re-imagined attempt to simplify the creation of new projects utilizing the latest web technologies out of the box such as Node.js, Grunt, SASS and Compass.
 
-This project will do lots of things for you - it will separate your development files (_src) from your testing files (_dist), allow for simple Javascript hinting, file concatenation, HTML includes, SASS compilation, and much more. Forget about wasting time bootstrapping projects yourself.
+This project does lots of things for you, including:
+
+* SASS with Compass
+* File cleanup (removal of logging statements for production files, etc)
+* File Concatenation
+* File minification
+* Javascript hinting
+* HTML Includes
+
 
 
 ##Requirements
@@ -12,11 +20,13 @@ You will need some command line kung fu in order to use this project. Check out 
 
 ##Installation
 
-This project uses Node and Node Package Manager (NPM). If you don't have Node installed, you can install hit [here](http://nodejs.org/download/). Then install NPM [here](http://howtonode.org/introduction-to-npm). You'll also need to install Grunt. You can do that [here](http://gruntjs.com/getting-started).
+This project has a couple of dependencies, mainly Node.js, NPM, and Grunt. Make sure you have all of these components installed and running properly before trying to use this project.
 
-Once you've installed Node and Grunt, you'll need to install all of this project's dependencies. Stop crying, it's easy. Just type 
+Once you've installed all dependencies, simply clone this repo into your project folder and in the command line, type
 
-`npm install` 
+`npm install`
 
-and you're good to go.
+which will install the rest of the project's dependencies. From there, you can type `grunt`, `grunt dev`, `grunt prod`, or any individual grunt task that's listed in the Gruntfile.js file.
+
+Enjoy!
 
