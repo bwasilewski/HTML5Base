@@ -33,3 +33,7 @@ which will install the rest of the project's dependencies. From there, you can t
 
 Files inside of the _dist directory are for testing purposes only and should never, under any circumstances be edited by anyone, ever, ever, ever ever. All work is to be limited to the _src directory. Grunt's job is to take the work that you do in your _src directory, compile it, and move it over to _dist for testing. If you like to set up virtual hosts for your testing environment, these should always point to the _dist directory.
 
+
+### Automatic Compilation
+
+I know. You're like "so now I have to type `grunt` every time I want to see changes to my project? That's wiggity wack!" You're right. That would be silly. That's why I've included a "watch" task that will watch your _src directory and automatically recompile any time you've made a change. Just open up your command line, navigate to your project (the same directory that your Gruntfile resides in) and type `grunt watch`. Now whenever you make a change to your project, it will be recompiled, assuming you haven't made any glaring syntax errors/mistakes. If so, Grunt will warn you about a problem in the command line.
