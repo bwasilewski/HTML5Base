@@ -29,7 +29,7 @@ Once you've installed all dependencies, simply clone this repo into your project
 which will install the rest of the project's dependencies. From there, you can type `grunt`, `grunt dev`, `grunt prod`, or any individual grunt task that's listed in the Gruntfile.js file.
 
 
-## _src and _dist Directories
+### _src and _dist Directories
 
 Files inside of the _dist directory are for testing purposes only and should never, under any circumstances be edited by anyone, ever, ever, ever ever. All work is to be limited to the _src directory. Grunt's job is to take the work that you do in your _src directory, compile it, and move it over to _dist for testing. If you like to set up virtual hosts for your testing environment, these should always point to the _dist directory.
 
